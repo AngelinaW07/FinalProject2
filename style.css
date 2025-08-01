@@ -2,3 +2,128 @@ html {
   height: 100%;
   width: 100%;
 }
+
+.header {
+  padding: 1.25vw;
+  font-size: clamp(15px, 2vw, 25px);
+}
+
+.nav-link {
+  color: white;
+}
+.nav-item {
+  margin: 0.05vw;
+}
+
+body{
+
+}
+
+/* Background image & font */
+.main {
+  background-image: url('https://www.nicholls.edu/engineering/wp-content/uploads/sites/35/2020/01/engineering.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* backdrop doesn't work */
+  backdrop-filter: brightness(10%); 
+  font-family: 'Sansation', sans-serif;
+  font-weight: 300;
+}
+
+/* Title font*/
+h1 {
+  font-weight: 300;
+  font-size: clamp(20px,10vw,60px);
+}
+h3 {
+  font-weight: 300;
+  font-size: clamp(15px,5vw,30px);
+}
+
+/* Title orientation*/
+.title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  font-family: 'Sansation', sans-serif;
+  font-weight: 300;
+  font-size: clamp(20px,7vw,40px);
+  color: #16425b;
+  padding: 40px;
+}
+
+
+.timeline {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: black;
+  top: 130px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.left2025{
+  position: relative;
+  width: 40%;
+  padding: 15px;
+  box-sizing: border-box;
+  left: 5%;
+  border: 1px solid black;
+}
+.right2023{
+  position: relative;
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box;
+  left: 55%;
+  border: 1px solid black;
+}
+.left2022{
+  position: relative;
+  width: 40%;
+  padding: 15px;
+  box-sizing: border-box;
+  left: 5%;
+  border: 1px solid black;
+}
+.right2021{
+  position: relative;
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box;
+  left: 55%;
+  border: 1px solid black;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .title {
+    width: 100%;
+    height: 425px;
+  }
+  .header {
+    padding: 1vw;
+  }
+}
+
+/* not finish*/
