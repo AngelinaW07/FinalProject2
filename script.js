@@ -3,10 +3,24 @@ let cardImage = document.getElementById("card-img-top");
 button.addEventListener("click", changeImage);
 
 function changeImage() {
-  var random = Math.floor(Math.random() * 2);
+  var random = Math.floor(Math.random() * 9);
   if (random == 0) {
-    cardImage.src = "https://images.pexels.com/photos/858115/pexels-photo-858115.jpeg?cs=srgb&dl=cold-snow-landscape-858115.jpg&fm=jpg";
+    cardImage.src = "Image/2024ROV.PNG.JPG";
   } else if (random == 1) {
-    cardImage.src = "https://th.bing.com/th/id/R.3dc5f998e54c345e8fdcb69fbe304051?rik=23kwO9bHYTPS4A&pid=ImgRaw&r=0";
+    cardImage.src = "Image/Amongusbot94.PNG.JPG";
+  } else if (random == 2) {
+    cardImage.src = "Image/Neptune_Hook.png.JPG";
+  } else if (random == 3) {
+    cardImage.src = "Image/Neptune_ROV.png.png";
+  } else if (random == 4) {
+    cardImage.src = "Image/Neptune_Design.JPG";
+  } else if (random == 5) {
+    cardImage.src = "Image/NeptuneFBD.JPG.JPG";
+  } else if (random == 6) {
+    cardImage.src = "Image/SBSRC_Vital_Monitor.PNG.JPG";
+  } else if (random == 7) {
+    cardImage.src = "Image/SPARC_Robot.PNG.JPG";
+  } else if (random == 8) {
+    cardImage.src = "Image/SPARC.PNG";
   }
 }

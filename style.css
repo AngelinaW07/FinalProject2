@@ -124,12 +124,12 @@ h2{
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  right: -12px;
+  right: -10.75px;
   top: 15px;
   z-index: 1;
 }
 .right img{
-  left: -14px;
+  left: -14.5px;
 }
 /* The boxes in the timeline */
 .box {
@@ -192,6 +192,20 @@ h2{
 }
 .card {
   box-shadow: 0 4px 8px 0  #CCDCE6 ;
+}
+h5 {
+  font-family: 'Sansation', sans-serif;
+  font-weight: 300;
+}
+h6 {
+  font-family: 'Sansation', sans-serif;
+  font-weight: 300;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*FOOTER*/
