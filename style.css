@@ -133,7 +133,6 @@ h2{
 }
 /* The boxes in the timeline */
 .box {
-  background-color: #gray ;
   position: relative;
   border-radius: 6px;
   padding: 0px 40px;
